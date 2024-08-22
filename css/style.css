@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: black;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    position: relative;
+}
+
+.music-control{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    width: 30px;
+}
+
+#reset{
+    display: none;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+
+    position: absolute;
+    z-index: 3;
+}
+
+#reset:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+    
+}
+
+.game{
+    background-image: url(../assets/scene.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 1200px;
+    height: 595px;
+
+    position: relative;
+}
+
+h1{
+    font-size: 80px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.personagem{
+    position: absolute;
+    width: 75px;
+}
+
+#ash{
+    top: 0;
+    right: 2px;
+    z-index: 1;
+}
+
+#charmander{
+    top: 95px;
+    right: 70px;
+    display: none;
+}
+
+#pikachu{
+    top: 220px;
+    right: 560px;
+    
+}
+
+#zubat{
+    top: 320px;
+    right: 400px;
+    
+}
+
